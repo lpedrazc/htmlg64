@@ -1,0 +1,49 @@
+body{
+	background: slategray;
+}
+
+form{
+	margin: 0 auto;
+	background: seagreen;
+	width: 500px;
+	margin-top: 200px;
+	padding: 20px;
+}
+
+#botones{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.campos{
+	margin-top: 15px;
+}
+
+form label{
+	float: left;
+	width: 100px;
+
+}
+
+form input{
+	width: 200px;
+}
+
+form textarea{
+	width: 200px;
+	height: 100px;
+}
+
+form input[type="submit"],form input[type="reset"]{
+	width: 100px;
+	background-color: palevioletred;
+	border-color: palevioletred;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,form input[type="reset"]:hover{
+	background-color: whitesmoke;
+	border-color: whitesmoke;
+    color: palevioletred;
+}
